@@ -41,7 +41,6 @@ public class AwsS3BucketFileService {
 	@Value("${amazonProperties.secrityKey}")
     private String secrityKey;
     
-    
 	
 	@PostConstruct
 	private void intializeAmazon() {

@@ -92,8 +92,6 @@ public class PurchaseOrderControllerTest {
 	}
 	
 	
-
-	
 	@Test	
 	public void  getPlaceOrder() throws Exception {	
 		PurchaseOrder order= new PurchaseOrder();

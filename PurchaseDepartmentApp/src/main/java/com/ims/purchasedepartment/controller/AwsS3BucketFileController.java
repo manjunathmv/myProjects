@@ -21,7 +21,7 @@ import com.ims.purchasedepartment.service.AwsS3BucketFileService;
 public class AwsS3BucketFileController {
 
 	private AwsS3BucketFileService s3FileService;
-
+	
 	
 	@Autowired
 	AwsS3BucketFileController(AwsS3BucketFileService s3FileService){
@@ -30,7 +30,6 @@ public class AwsS3BucketFileController {
 
 	@PostMapping("/uploadFile")
 	 public String uploadFile(@RequestPart(value="file") MultipartFile file) throws IOException {
-		return this.s3FileService.uploadFile(file);
-		 
+		return this.s3FileService.uploadFile(file);	 
 	 }
 }

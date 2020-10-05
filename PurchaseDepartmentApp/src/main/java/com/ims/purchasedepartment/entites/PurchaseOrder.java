@@ -38,7 +38,6 @@ public class PurchaseOrder {
 	public PurchaseOrder() {
 		
 	}
-
 	 /**
 	   * This method is used to getPurchaseId	   
 	   * @return int This returns purchaseId .

@@ -39,7 +39,6 @@ public class PurchaseOrderService {
 		return purchaseOrderDao.findById(orderId).orElseThrow();
 	}
 
-
 	
 	public List<PurchaseOrder> getAllPlaceOrders() {
 		return purchaseOrderDao.findAll() ;

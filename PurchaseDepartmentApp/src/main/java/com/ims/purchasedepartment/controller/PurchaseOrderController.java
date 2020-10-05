@@ -55,7 +55,6 @@ public class PurchaseOrderController {
 	   * This method is used to getAllPlaceOrders	   
 	   * @return  List of PurchaseOrderThis returns all the  purchaseOrders information .
 	   */
-	
 	@GetMapping("/getAllPlaceOrders")
 	public List<PurchaseOrder> getAllPlaceOrders() {
 		return purchaseOrderService.getAllPlaceOrders();
@@ -70,7 +69,6 @@ public class PurchaseOrderController {
 	public PurchaseOrder updatePlaceOrder(@RequestBody PurchaseOrder order) {
 		return purchaseOrderService.updatePlaceOrder(order);
 		}
-
 	
 	 /**
 	   * This method is used to cancelPlaceOrder	   

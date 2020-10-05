@@ -19,5 +19,4 @@ import com.ims.purchasedepartment.entites.PurchaseOrder;
 @Repository
 public interface PurchaseOrderDao extends  JpaRepository<PurchaseOrder, Integer> {
 	
-	
 }

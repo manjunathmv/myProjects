@@ -53,9 +53,10 @@ public class PurchaseOrderDaoTest {
 		greaterThan = assertThat(listorder).size().isGreaterThan(0);
 	}
 	
-	  @Test public void getPurchaseOrderByID() {
-	  
-	  PurchaseOrder order=purchaseOrderDao.getOne(2); assertNotNull(order); }
+	  @Test 
+	  public void getPurchaseOrderByID() {
+	  PurchaseOrder order=purchaseOrderDao.getOne(2); 
+	  assertNotNull(order); }
 	  
 	  @Test  
 	  @Rollback(false)
