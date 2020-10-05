@@ -1,4 +1,4 @@
-package com.ims.productiondepartment.controller;
+package com.ims.purchasedepartment.controller;
 
 
 import java.util.List;
@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.ims.productiondepartment.entites.PurchaseOrder;
-import com.ims.productiondepartment.service.PurchaseOrderService;
+import com.ims.purchasedepartment.entites.PurchaseOrder;
+import com.ims.purchasedepartment.service.PurchaseOrderService;
 
 /**
 

@@ -1,9 +1,9 @@
-package com.ims.productiondepartment.dao;
+package com.ims.purchasedepartment.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.ims.productiondepartment.entites.PurchaseOrder;
+import com.ims.purchasedepartment.entites.PurchaseOrder;
 
 
 

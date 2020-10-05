@@ -1,4 +1,4 @@
-package com.ims.productiondepartment.entites;
+package com.ims.purchasedepartment.entites;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

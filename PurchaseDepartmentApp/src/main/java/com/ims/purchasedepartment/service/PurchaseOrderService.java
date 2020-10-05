@@ -1,4 +1,4 @@
-package com.ims.productiondepartment.service;
+package com.ims.purchasedepartment.service;
 
 import java.util.List;
 
@@ -18,8 +18,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.stereotype.Service;
 
-import com.ims.productiondepartment.dao.PurchaseOrderDao;
-import com.ims.productiondepartment.entites.PurchaseOrder;
+import com.ims.purchasedepartment.dao.PurchaseOrderDao;
+import com.ims.purchasedepartment.entites.PurchaseOrder;
+
 
 
 @Service

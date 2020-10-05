@@ -1,4 +1,4 @@
-package com.ims.productiondepartment;
+package com.ims.purchasedepartment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
